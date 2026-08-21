@@ -77,8 +77,10 @@ covering multiple large sub-topics -> split into references/.
 
 ## Checklist
 
-- [ ] `name` matches folder name, lowercase-hyphenated
-- [ ] `description` states what + when, front-loads real trigger keywords
+- [ ] `name` matches folder name, lowercase-hyphenated, unique across all
+  skill locations (project + global, opencode/claude/agents-compatible)
+- [ ] `description` states what + when, front-loads real trigger keywords,
+  under the 1024-character hard limit
 - [ ] Body covers the common case only; rare/deep detail moved to references/
 - [ ] Concrete examples (ideally ✅/❌) for known failure modes, not just prose
 - [ ] No restating of general knowledge the model already has
