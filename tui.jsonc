@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/tui.json",
+  "attention": {
+    "enabled": true,
+    "notifications": true,
+    // Sound doesn't actually play on this WSL2 machine - opencode opens a
+    // live PulseAudio stream but never pushes sample data through it.
+    // Upstream bug, not a config issue: see
+    // https://github.com/anomalyco/opencode/issues/41763 and #38755.
+    // Should work fine on native Linux/KDE.
+    "sound": true,
+    "volume": 0.4
+  }
+}
