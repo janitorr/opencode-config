@@ -1,6 +1,6 @@
 ---
 name: git-workflow-and-versioning
-description: Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, splitting uncommitted work in a messy working tree into clean atomic commits, opening or reviewing a pull request (PR), pushing to a remote, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog.
+description: Structures git workflow practices. Use when making any version-controlled change — code, docs, config, prompts, or skills. Use when committing, branching, resolving conflicts, splitting uncommitted work in a messy working tree into clean atomic commits, opening or reviewing a pull request (PR), pushing to a remote, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog.
 ---
 
 # Git Workflow and Versioning
@@ -11,7 +11,8 @@ Git is your safety net. Treat commits as save points, branches as sandboxes, and
 
 ## When to Use
 
-Always. Every code change flows through git.
+Any change that flows through version control — code, documentation,
+configuration, prompts, or skills.
 
 ## Core Principles
 
